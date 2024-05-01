@@ -1,0 +1,160 @@
+.pokecard {
+    background-color: white;
+    position: relative;
+    width: 250px;
+    border: 8px solid lightblue;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.pokecard * {
+    color: gray;
+}
+.poke__container {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 20px;
+  
+}
+.pokecard__back {
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    border-radius: 10px 10px 0 0;
+}
+.pokecard__img {
+    width: 70%;
+    z-index: 10;
+}
+.pokecard__types {
+    display: flex; 
+}
+.slot2::before {
+    content: '/';
+    margin: 0 5px;
+}
+.pokecard hr {
+    width: 90%;
+    margin: 10px 0;
+}
+.pokecard__stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+.pokecard__stats li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* ----- Colors -----*/
+.pokecard__back.grass {
+    background-image: linear-gradient(to bottom, #80C7C5, #C7DF9D);
+    
+}
+.pokecard__name.grass {
+    color: #80C7C5;
+}
+.pokecard__back.fire {
+    background-image: linear-gradient(to bottom, #E95E3A, #E6901F)
+}
+.pokecard__name.fire {
+    color: #E95E3A;
+}
+.pokecard__back.water {
+    background-image: linear-gradient(to bottom, #145DBC, #2F87F9)
+}
+.pokecard__name.water {
+    color: #145DBC;
+}
+.pokecard__back.bug {
+    background-image: linear-gradient(to bottom, #3CB23A, #67D065)
+}
+.pokecard__name.bug {
+    color: #3CB23A;
+}
+.pokecard__back.normal {
+    background-image: linear-gradient(to bottom, #7C555E, #AC6574);
+}
+.pokecard__name.normal {
+    color: #7C555E;
+}
+.pokecard__back.fighting {
+    background-image: linear-gradient(to bottom, #A1442C, #CA5334)
+}
+.pokecard__name.fighting {
+    color: #A1442C;
+}
+.pokecard__back.poison {
+    background-image: linear-gradient(to bottom, #7342A3, #B479EE)
+}
+.pokecard__name.poison {
+    color: #7342A3;
+}
+.pokecard__back.ground {
+    background-image: linear-gradient(to bottom, #764D11, #B37B2A) 
+}
+.pokecard__name.ground {
+    color: #764D11;
+}
+.pokecard__back.rock {
+    background-image: linear-gradient(to bottom, #848487, #ADAEB1)
+}
+.pokecard__name.rock {
+    color: #848487;
+}
+.pokecard__back.ghost {
+    background-image: linear-gradient(to bottom, #383C7D, #595EBC) 
+}
+.pokecard__name.ghost {
+    color: #383C7D;
+}
+.pokecard__back.steel {
+    background-image: linear-gradient(to bottom, #687D76, #8E9995)
+}
+.pokecard__name.steel {
+    color: #687D76;
+}
+.pokecard__back.electric {
+    background-image: linear-gradient(to bottom, #1B2298, #5056BC)
+}
+.pokecard__name.electric {
+    color: #1B2298;
+}
+.pokecard__back.ice {
+    background-image: linear-gradient(to bottom, #6AC4E9, #93DBFA)
+}
+.pokecard__name.ice {
+    color: #6AC4E9;
+}
+.pokecard__back.dragon {
+    background-image: linear-gradient(to bottom, #4D949E, #80B2B9)
+}
+.pokecard__name.dragon {
+    color: #4D949E;
+}
+.pokecard__back.dark {
+    background-image: linear-gradient(to bottom, #060B0A, #313534)
+}
+.pokecard__name.dark {
+    color: #060B0A;
+}
+.pokecard__back.psychic {
+    background-image: linear-gradient(to bottom, #710A5C, #8F4488)
+}
+.pokecard__name.psychic {
+    color: #710A5C;
+}
+.pokecard__back.fairy {
+    background-image: linear-gradient(to bottom, #72BF18, #FBFBFB)
+}
+.pokecard__name.fairy {
+    color: #72BF18;
+}

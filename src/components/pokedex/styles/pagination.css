@@ -1,0 +1,35 @@
+
+.pagination {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+    grid-gap: 5px;
+    place-items: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px; 
+    padding: 15px;
+   
+    
+}
+  
+  .pagination button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 15px;
+    width: 5px;
+    height: 5px;
+    display: flex;
+    background-color: transparent;
+    border: 2px solid red;
+    color: black;
+    cursor: pointer;
+   
+    
+  }
+  
+  .pagination button:hover {
+    background-color: red;
+    color: white;
+  }
+  
